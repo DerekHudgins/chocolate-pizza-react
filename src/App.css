@@ -1,5 +1,6 @@
 .App {
   display: flex;
+  flex-direction: column;
 }
 .header {
   display: flex;
@@ -49,4 +50,8 @@
   height: 64px;
   padding-top: 10px;
   padding-left: 10px;
+}
+.Ingredients {
+  justify-content: center;
+  align-items: center;
 }
