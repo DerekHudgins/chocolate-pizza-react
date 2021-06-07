@@ -6,29 +6,29 @@ export default class Ingredients extends Component {
         return (
             <div className = 'Ingredients'>
                 < ul >
-                    <li><IngredientsItems amount='1 1/2 cups' name='milk' /></li>
-                    <li><IngredientsItems amount='1/2 cup' name='marscapone' /></li>
+                    <IngredientsItems amount='1 1/2 cups' name='milk' />
+                    <IngredientsItems amount='1/2 cup' name='marscapone' />
 
-                    <li><IngredientsItems amount='1/2 tsp' name='pink salt' /></li>
+                     <IngredientsItems amount='1/2 tsp' name='pink salt' />  
 
-                    <li><IngredientsItems amount='1 LB' name='Black Mission Figs' /></li>
+                     <IngredientsItems amount='1 LB' name='Black Mission Figs' />  
 
-                    <li><IngredientsItems amount='1/2 cup' name='brown sugar' /></li>
+                     <IngredientsItems amount='1/2 cup' name='brown sugar' />  
 
-                    <li><IngredientsItems amount='2-4 tbs' name='water' /></li>
+                     <IngredientsItems amount='2-4 tbs' name='water' />  
                 </ul >
                 <ul>
-                    <li><IngredientsItems amount='1 1/2 cups' name='heavy cream' /></li>
+                     <IngredientsItems amount='1 1/2 cups' name='heavy cream' />  
 
-                    <li><IngredientsItems amount='1/3 cups' name='granulated sugar' /></li>
+                     <IngredientsItems amount='1/3 cups' name='granulated sugar' />  
 
-                    <li><IngredientsItems amount='2' name='egg yolks' /></li>
+                     <IngredientsItems amount='2' name='egg yolks' />  
 
-                    <li><IngredientsItems amount='1' name='lemon, juiced' /></li>
+                     <IngredientsItems amount='1' name='lemon, juiced' />  
 
-                    <li><IngredientsItems amount='2 tbss' name='butter' /></li>
+                     <IngredientsItems amount='2 tbss' name='butter' />  
 
-                    <li><IngredientsItems amount='1 cup' name='honey roasted pecans, roughly chopped' /></li>
+                     <IngredientsItems amount='1 cup' name='honey roasted pecans, roughly chopped' />  
                 </ul>
             </div>
         )
